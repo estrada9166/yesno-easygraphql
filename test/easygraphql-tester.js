@@ -47,6 +47,7 @@ describe('User', () => {
 
     expect(response.body.data.getMe).to.be.a('object')
     expect(response.body.data.getMe.email).to.be.a('string')
+    expect(response.body.data.getMe.apiKey).not.to.exist
   });
 
   it('should get GetUsers', async () => {
