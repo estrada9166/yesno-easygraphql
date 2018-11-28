@@ -3,6 +3,9 @@
 This is an example using [YesNo](https://github.com/FormidableLabs/yesno) and [EasyGraphQL](https://github.com/EasyGraphQL)
 to mock your GraphQL requests.
 
+[easygraphql-mock](https://github.com/EasyGraphQL/easygraphql-mock): Mock all the schema.
+[easygraphql-tester](https://github.com/EasyGraphQL/easygraphql-tester): Using the method `.mock(query)` it returns the mock of the query.
+
 ## How to run
 You can run it yourselves after cloning the repo.
 
